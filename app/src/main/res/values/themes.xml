@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_background</item>
+        <item name="android:background">@color/background_dark</item>
+        <item name="android:textColor">@color/on_background</item>
+        <item name="android:textColorHint">@color/hint_text</item>
+        <item name="android:editTextBackground">@drawable/edit_text_background</item>
+        <item name="buttonStyle">@style/AppButton</item>
+    </style>
+
+    <style name="AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/button_background</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>
